@@ -1,0 +1,17 @@
+table.dataTable td{padding:15px 8px}.fontawesome-icons .the-icon svg{font-size:24px}
+/* Estilo para la clase img-hover */
+.img-hover {
+    transition: transform 0.3s ease; /* Añade una transición suave */
+}
+
+.img-hover:hover {
+    transform: scale(1.5); /* Escala la imagen al 150% de su tamaño original */
+    z-index: 1000; /* Asegura que la imagen ampliada quede por encima de otros elementos */
+    position: relative; /* Permite que la imagen se desplace en el contexto de su contenedor */
+}
+
+/* Opcional: Si quieres que la tabla no se vea afectada por la imagen agrandada */
+table.dataTable td {
+    vertical-align: middle; /* Asegura que el contenido en las celdas esté centrado verticalmente */
+    padding: 15px 8px; /* Mantén este padding que ya tienes */
+}
